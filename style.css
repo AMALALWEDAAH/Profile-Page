@@ -1,0 +1,147 @@
+.main {
+  width: 900px;
+  margin: 10% auto;
+  display: flex;
+}
+
+.left {
+  flex: 2 60%;
+}
+
+.right {
+  flex: 1 30%;
+}
+.col {
+  border: 5px solid gray;
+  margin: 2%;
+}
+.nav-links {
+  list-style: none;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-title {
+  /*margin: ;*/
+  width: 50%;
+  padding-left: 20px;
+  font-weight: 400;
+}
+
+.nav {
+  background-color: rgb(52, 50, 50);
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.center li {
+  display: flex;
+  justify-content: flex-start;
+}
+.btn {
+  background-color: #17a2b8;
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+  color: white;
+  font-size: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: darkgray;
+}
+a:hover {
+  color: white;
+}
+
+.smallest {
+  margin-right: 10px;
+  width: 20px;
+}
+.blue-hider {
+  margin-bottom: -60px;
+  background-color: rgb(28, 137, 171);
+  height: 90px;
+}
+
+#user-pic {
+  background-color: white;
+  width: 90px;
+  padding: 5px;
+  border: 5px solid gray;
+  border-radius: 100%;
+}
+
+.info {
+  font-family: "Roboto", sans-serif;
+  margin-left: 20px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+a {
+  color: #3a81e6;
+}
+
+.hider {
+  background-color: rgb(52, 50, 50);
+  height: 60px;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin: 5px 3px;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+}
+
+.item {
+  display: flex;
+  justify-content: flex-start;
+  margin: 5px;
+}
+.flex-end {
+  margin-left: 60px;
+}
+.circule span {
+  background-color: grey;
+  border-radius: 30px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.grey-font {
+  color: gray;
+  margin: 5px;
+}
+
+.border {
+  margin: -5px;
+  padding: 20px;
+  border: 5px solid gray;
+}
+
+.hider img {
+  background-color: gray;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin-top: 16px;
+}
+
+.thiner {
+  height: 40px;
+  padding-bottom: 20px;
+}
